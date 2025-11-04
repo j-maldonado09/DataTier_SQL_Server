@@ -225,7 +225,9 @@ namespace DataTier
             }
             finally
             {
+
                 reader.Close();
+                //reader = null;
             }
 
             if (jsonResult == "")
@@ -280,4 +282,3 @@ namespace DataTier
         }
     }
 }
-
